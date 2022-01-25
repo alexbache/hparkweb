@@ -48,7 +48,7 @@ font-family: 'Itim', cursive;
 }
 
 #section-1 p{
-    color:white;
+    color:rgb(255, 230, 5);
     width: 100%;
     padding-left:40px;
 }
@@ -56,7 +56,7 @@ font-family: 'Itim', cursive;
 #section-1 ul{
     display:flex;
     width: 350px;
-    color: white;
+    color: rgb(255, 195, 247);
     height: 100%;
     align-items:center;
     list-style-type: none;
@@ -74,36 +74,56 @@ font-family: 'Itim', cursive;
     font-size: 80px;
     display: flex;
     align-items: center;
-    color:white;
+    color:rgb(255, 255, 255);
     font-weight:bold;
+    justify-content: center;
     
 }
 
 
 #section-3{
-    background-image: url("resources/dustin-humes-IkYpVrXx4y8-unsplash.jpg");
+    /* background-image: url("resources/dustin-humes-IkYpVrXx4y8-unsplash.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    height:40%;
+    height:100%;
     margin: 20px 0px 60px 0px;
     font-size: 80px;
     color:white;
     display:flex;
     text-align: center;
-    padding-top:80px;
-
-
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
 
 
 }
 
+#section-3 div{
+
+    height: auto;
+    height: 300px;
+    padding: 8px;
+}
+
+#section-3 img{
+    height: 100%;
+    border:solid white 4px;
+}
+
+
 #footer{
-    background-color: rgb(36, 25, 105);
+    background-color: rgb(255, 211, 115);
     height:40px;
     display: flex;
     justify-content: flex-end;
-    color: white;
+    color: rgb(126, 82, 0);
     padding-right: 40px;
     align-items: center;
+}
+
+
+#avo{
+    flex-grow: 2;
 }
